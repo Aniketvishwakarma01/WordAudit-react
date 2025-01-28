@@ -2,11 +2,11 @@
 import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import AboutUs from './components/AboutUs';
+// import AboutUs from './components/AboutUs';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
 import React from "react";
-import {BrowserRouter as Router, Routes ,Route,} from "react-router-dom";
+// import {BrowserRouter as Router, Routes ,Route,} from "react-router-dom";
 
 function App() {
   const [mode, setMode]=useState('light');
@@ -40,16 +40,17 @@ function App() {
   }
   return (
     <div className="App">
-      <Router>
-      <Navbar title="WordAudit" about='About' mode={mode} toggleMode={toggleMode} btnText={btnText}/>
+      {/* <Router> */}
+      <Navbar title="WordAudit" about='AboutUs' mode={mode} toggleMode={toggleMode} btnText={btnText}/>
       <Alert alert={alert}/>
        <div className='container my-3'>
-        <Routes>
-          <Route exact path="/about" element={<AboutUs mode={mode} about="About Us"/>}/>
-          <Route exact path="/" element={<TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode}/>}/>
-          </Routes>
+       <TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode}/>
+        {/* <Routes> */}
+          {/* <Route path="/about" element={<AboutUs mode={mode} about="About Us"/>}/> */}
+          {/* <Route path="/" element={}/> */}
+        {/* </Routes> */}
       </div>
-      </Router>
+      {/* </Router> */}
     </div>
   );
 }
