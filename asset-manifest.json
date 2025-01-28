@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WordAudit-react/static/css/main.f855e6bc.css",
+    "main.js": "/WordAudit-react/static/js/main.71955e59.js",
+    "static/js/488.0f745a46.chunk.js": "/WordAudit-react/static/js/488.0f745a46.chunk.js",
+    "index.html": "/WordAudit-react/index.html",
+    "main.f855e6bc.css.map": "/WordAudit-react/static/css/main.f855e6bc.css.map",
+    "main.71955e59.js.map": "/WordAudit-react/static/js/main.71955e59.js.map",
+    "488.0f745a46.chunk.js.map": "/WordAudit-react/static/js/488.0f745a46.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.71955e59.js"
+  ]
+}
