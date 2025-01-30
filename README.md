@@ -28,7 +28,11 @@
 
 5. Open your browser and go to http://localhost:3000
 
-## 🔮 Future Enhancements
--🚀 Export results as a text file
--🚀 Additional text analysis insights
--🚀 Multi-language support
+## 🔮 Future Enhancements  
+- [ ] Export results as a text file  
+- [ ] Additional text analysis insights  
+- [ ] Multi-language support  
+- [ ] Support for PDF and DOCX file analysis  
+- [ ] Word frequency analysis  
+- [ ] Improved UI/UX enhancements  
+
